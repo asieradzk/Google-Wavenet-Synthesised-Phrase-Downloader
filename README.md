@@ -25,6 +25,22 @@ https://cloud.google.com/text-to-speech/docs/libraries
 
 Downloaded the API key .json file and place it in the Key folder or replace the code and
 and add key in *env variable* manually.
+
+To change the language settings adjust the language name and code in the WordDownloaderSaver class here:
+
+```cs
+var voiceSelection = new VoiceSelectionParams
+                {
+                    LanguageCode = "pl-PL",
+                    Name = "pl-PL-Wavenet-B",
+                };
+        
+```
+According to the table at:
+https://cloud.google.com/text-to-speech/docs/voices
+
+
+
     
 ## Contact
 
