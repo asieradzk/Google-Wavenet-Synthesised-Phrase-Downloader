@@ -28,5 +28,6 @@ and add key in *env variable* manually.
     
 ## Contact
 
-- [@Adrian Sieradzki](contact@exmachinasoft.com)
+- Adrian Sieradzki
+contact@exmachinasoft.com
 
