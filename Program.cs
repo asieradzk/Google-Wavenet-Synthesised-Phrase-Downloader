@@ -10,6 +10,7 @@ namespace WordsDownloader
         [STAThread]
         static void Main()
         {
+            /*
             new Thread(() =>
             {
                 //Put folder named Key in the executable directory and your API key .json inside of it
@@ -22,7 +23,7 @@ namespace WordsDownloader
 
                 Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path, EnvironmentVariableTarget.User);
             }).Start();
-
+            */
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
